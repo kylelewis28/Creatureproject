@@ -1,0 +1,42 @@
+body {
+    background-color: #76c8ff;
+    margin: 0;
+    font-family: sans-serif;
+  display: flex;
+  height: 100vh;
+  }
+  header {
+    color: white;
+    background-color: white;
+    border:solid 1px green;
+    border-radius: 9px;
+    text-align: right;
+    padding: .34rem .10rem;
+    line-height: 2.4rem;
+    border-bottom: solid 1px dimgrey;
+box-shadow:
+  0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  }
+  header a:hover {
+    background-color: #1084d1;
+    cursor: pointer;
+  }
+  .container {
+    margin: auto;
+    padding: 1.5rem;
+  background-color: white;
+  border: solid 1px gray;
+  border-radius: 5px;
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+.container > h1 {
+    margin: 0 0 .5rem;
+  }
